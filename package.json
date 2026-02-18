@@ -1,0 +1,28 @@
+{
+  "name": "@scedel/codegen-typescript",
+  "version": "0.1.0",
+  "description": "TypeScript code generator for SCEDel schemas",
+  "license": "MIT",
+  "author": "SCEDel contributors",
+  "keywords": [
+    "scedel",
+    "schema",
+    "codegen",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "scedel-generate-typescript": "./bin/generate-typescript.mjs"
+  },
+  "scripts": {
+    "generate": "node ./bin/generate-typescript.mjs",
+    "test": "node --test ./tests/*.test.js"
+  }
+}
