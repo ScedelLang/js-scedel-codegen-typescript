@@ -1,9 +1,9 @@
 {
   "name": "@scedel/codegen-typescript",
   "version": "0.1.0",
-  "description": "TypeScript code generator for SCEDel schemas",
+  "description": "TypeScript code generator for Scedel schemas",
   "license": "MIT",
-  "author": "SCEDel contributors",
+  "author": "Scedel contributors",
   "keywords": [
     "scedel",
     "schema",
